@@ -30,14 +30,14 @@ const Header = () => {
                                 {
                                     user
                                         ?
-                                        <Nav.Link as={Link} to="/login" onClick={handelSignOut}>
-                                            SignOut
+                                        <Nav.Link as={Link} to="/signin" onClick={handelSignOut}>
+                                            Sign Out
 
 
                                         </Nav.Link>
                                         :
-                                        <Nav.Link as={Link} to="/login">
-                                            Login
+                                        <Nav.Link as={Link} to="/signin">
+                                            Sign In
                                         </Nav.Link>
                                 }
                             </Nav>

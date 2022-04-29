@@ -3,7 +3,7 @@ import { Carousel } from 'react-bootstrap';
 import img1 from '../../../images/dr slider images/img1.jpg';
 import img2 from '../../../images/dr slider images/img2.jpg';
 import img3 from '../../../images/dr slider images/img3.jpg';
-
+import './Slider.css';
 
 
 const Slider = () => {
@@ -17,7 +17,7 @@ const Slider = () => {
             <Carousel activeIndex={index} onSelect={handleSelect}>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 caruImg"
+                        className="d-block w-100 carouselImg"
                         src={img2}
                         alt="First slide"
                     />
@@ -29,7 +29,7 @@ const Slider = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 caruImg"
+                        className="d-block w-100 carouselImg"
                         src={img3}
                         alt="Second slide"
                     />
@@ -42,7 +42,7 @@ const Slider = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 caruImg"
+                        className="d-block w-100 carouselImg"
                         src={img1}
                         alt="Third slide"
                     />
