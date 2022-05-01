@@ -4,6 +4,7 @@ import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../src/firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
+
 import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../../Components/Shared/Loading/Loading';
 import SocailLogin from '../../Components/SocailLogin/SocailLogin';
@@ -53,7 +54,7 @@ const SignIn = () => {
         signInWithEmailAndPassword(email, password);
     }
 
-    const hendelForgetPssword = async () => {
+    const handelForgetPssword = async () => {
         const email = EmailRef.current.value
         if (email) {
             await sendPasswordResetEmail(email);
@@ -62,7 +63,10 @@ const SignIn = () => {
         else {
             toast('enter your email')
         }
+
+
     }
+
 
     return (
         <div className='login-container'>
@@ -94,14 +98,14 @@ const SignIn = () => {
                         <Link className='form-link' to='/signup'>Create new account !  </Link>
                     </div>
                     <div>
-                        <button className='form-link btn btn-link' onClick={hendelForgetPssword}>Forgotten password?</button>
+                        <button className='form-link btn btn-link' onClick={handelForgetPssword}>Forgotten password?</button>
                     </div>
                 </div>
 
 
 
                 <SocailLogin></SocailLogin>
-                <ToastContainer />
+                <ToastContainer></ToastContainer>
 
             </form>
         </div>
