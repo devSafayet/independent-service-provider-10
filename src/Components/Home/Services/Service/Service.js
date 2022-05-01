@@ -19,7 +19,7 @@ const Service = ({ appoint }) => {
                         <p>Place: {place}</p>
                         <p>Appoinment Fee: <span className='text-danger fw-blod'>{appointment_fee}</span></p>
                     </Card.Text>
-                    <Button variant="" className='submit-btn pt-1' as={Link} to='/checkapoint' >Take An Appointment</Button>
+                    <Button variant="" className='submit-btn p-1' as={Link} to='/checkapoint' >Take An Appointment</Button>
 
                 </Card.Body>
             </Card>

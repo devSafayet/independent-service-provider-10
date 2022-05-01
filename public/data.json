@@ -2,27 +2,27 @@
     {
         "id": 0,
         "name": "Normal Appointment",
-        "place": "Mohakhali genaral Hospital",
-        "time": "4pm",
-        "details": "this is our normal appointmet but you can get full service in this apppoint",
-        "appointment_fee": "1000/-",
+        "place": "Chittagong Private Hospital",
+        "time": "3:30pm",
+        "details": "This is our normal Appointment. But you can get full service in this Appointment.",
+        "appointment_fee": "800/-",
         "img": "https://i.ibb.co/YcvFGVw/appointment1.jpg"
     },
     {
         "id": 1,
-        "name": "Privet Appointmet",
-        "place": "Mohakhali genaral Hospital",
-        "time": "8pm",
-        "details": "this is our Privet appointmet but you can get full service in this apppoint",
-        "appointment_fee": "3000/-",
+        "name": "Private Appointment",
+        "place": "Chittagong General Hospital.",
+        "time": "7:00 pm",
+        "details": "This is our Private Appointment.But you can get full service in this Appoint",
+        "appointment_fee": "2500/-",
         "img": "https://i.ibb.co/2tHtynz/appointment2.jpg"
     },
     {
         "id": 2,
-        "name": "Vip Appointment",
-        "place": "Mohakhali genaral Hospital",
-        "time": "10am",
-        "details": "this is our Vip appointmet but you can get full service in this apppoint",
+        "name": "vip Appointment",
+        "place": "Chittagong Safa Medical Hospital.",
+        "time": "10:00 am",
+        "details": "This is our vip appointment.You can All service in this Appointment.",
         "appointment_fee": "5000/-",
         "img": "https://i.ibb.co/GHgfYqC/appointment3.jpg"
     }
