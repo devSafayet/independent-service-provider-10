@@ -8,6 +8,7 @@ import Header from './Components/Shared/Header/Header';
 import NotFound from './Components/Shared/NotFound/NotFound';
 import SignIn from './Components/SignIn/SignIn';
 import SignOut from './Components/SignOut/SignOut';
+import SignUp from './Components/SignUp/SignUp';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/signin' element={<SignIn></SignIn>}></Route>
+        <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/signout' element={<SignOut></SignOut>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
