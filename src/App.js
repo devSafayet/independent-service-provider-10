@@ -4,6 +4,7 @@ import './App.css';
 import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 import CheckAppoints from './Components/CheckAppoints/CheckAppoints';
+import AppointSuccess from './Components/Home/AppointSuccess/AppointSuccess';
 import Home from './Components/Home/Home/Home';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
 import Footer from './Components/Shared/Footer/Footer';
@@ -31,6 +32,7 @@ function App() {
             <CheckAppoints></CheckAppoints>
           </RequireAuth>
         } ></Route>
+        <Route path='/successapooint' element={<AppointSuccess></AppointSuccess>} ></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
