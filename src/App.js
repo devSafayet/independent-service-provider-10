@@ -3,7 +3,10 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
+import CheckAppoints from './Components/CheckAppoints/CheckAppoints';
 import Home from './Components/Home/Home/Home';
+import RequireAuth from './Components/RequireAuth/RequireAuth';
+import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
 import NotFound from './Components/Shared/NotFound/NotFound';
 import SignIn from './Components/SignIn/SignIn';
@@ -23,8 +26,14 @@ function App() {
         <Route path='/signin' element={<SignIn></SignIn>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/signout' element={<SignOut></SignOut>}></Route>
+        <Route path='/checkapoint' element={
+          <RequireAuth>
+            <CheckAppoints></CheckAppoints>
+          </RequireAuth>
+        } ></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
+      <Footer></Footer>
 
     </div>
   );
