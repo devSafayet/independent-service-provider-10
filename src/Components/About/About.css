@@ -1,10 +1,10 @@
-.banner-area {
+.about-area {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 140px;
 }
 
-.banner-img img {
+.about-img img {
     height: 400px;
     width: 400px;
     border-radius: 50%;
@@ -12,33 +12,33 @@
     transition: .4s;
 }
 
-.banner-img:hover img {
+.about-img:hover img {
     border: 10px solid #e74c3c;
     transform: scale(1.1);
 }
 
-.banner-intro h5 {
+.about-intro h5 {
     color: #e74c3c;
     font-weight: bold;
     font-size: 25px;
 }
 
-.banner-intro h1 {
+.about-intro h1 {
     color: #2c3e50;
     font-size: 50px;
 }
 
-.banner-intro h3 {
+.about-intro h3 {
     color: #2c3e50;
     font-size: 35px;
 }
 
-.banner-intro h3 span {
+.about-intro h3 span {
     color: #e67e22;
     font-weight: 700;
 }
 
-.banner-intro p {
+.about-intro p {
     color: #7f8c8d;
     font-size: 18px;
     width: 530px;
@@ -63,21 +63,21 @@
 
 @media only screen and (max-width: 575px) {
 
-    .banner-img img {
+    .about-img img {
         margin-top: 20px;
         height: 100%;
         width: 100%;
     }
 
-    .banner-intro h1 {
+    .about-intro h1 {
         font-size: 30px;
     }
 
-    .banner-intro h3 {
+    .about-intro h3 {
         font-size: 22px;
     }
 
-    .banner-intro p {
+    .about-intro p {
         width: 100%;
         font-size: 15px;
     }
