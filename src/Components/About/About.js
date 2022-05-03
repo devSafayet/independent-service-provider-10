@@ -20,6 +20,9 @@ const About = () => {
                                 I’m currently learning Web Developer. I am working front end design and development with HTML, CSS,
                                 JavaScript, React, Firebase. I can make dynamic and responsive website for
                                 mobile.
+                                <br />
+                                <br />
+                                My Goal Full Stack Web developer. I Will Try In sha allah.
                             </p>
                             <div className="social-link">
                                 <a href="https://www.facebook.com/safayet003.admin/" target="_blank">
