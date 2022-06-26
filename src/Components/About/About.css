@@ -44,22 +44,7 @@
     width: 530px;
 }
 
-.social-link a {
-    font-size: 40px;
-    margin-right: 20px;
-}
 
-.social-link .fa-facebook-square {
-    color: #166FE5;
-}
-
-.social-link .fa-linkedin {
-    color: #0A66C2;
-}
-
-.social-link .fa-github-square {
-    color: #24292F;
-}
 
 @media only screen and (max-width: 575px) {
 

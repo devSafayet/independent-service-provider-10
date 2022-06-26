@@ -2,10 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
-import Blogs from './Components/Blogs/Blogs';
 import CheckAppoints from './Components/CheckAppoints/CheckAppoints';
 import AppointSuccess from './Components/Home/AppointSuccess/AppointSuccess';
 import Home from './Components/Home/Home/Home';
+import Services from './Components/Home/Services/Services/Services';
 import RequireAuth from './Components/RequireAuth/RequireAuth';
 import Footer from './Components/Shared/Footer/Footer';
 import Header from './Components/Shared/Header/Header';
@@ -22,8 +22,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/home' element={<Home></Home>}></Route>
-        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/services' element={<Services />}></Route>
         <Route path='/signin' element={<SignIn></SignIn>}></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/signout' element={<SignOut></SignOut>}></Route>
