@@ -1,7 +1,7 @@
 # Independent Service Provider Website - (Dr. Kaneez Fatema)
 
-## [DR. Kaneez Fatema](https://independent-service-prov-48603.web.app/)
-Click here to Website: [https://independent-service-prov-48603.web.app/](https://independent-service-prov-48603.web.app)
+## [DR. Kaneez Fatema](https://independent-service-prov-b483b.web.app/)
+Click here to Website: [https://independent-service-prov-b483b.web.app/](https://independent-service-prov-b483b.web.app)
 
 
 ## Project Used frameworks and libraries:  
